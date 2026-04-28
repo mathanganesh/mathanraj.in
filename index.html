@@ -3,25 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mathan Raj Krishnan — Portfolio</title>
-  <meta name="description" content="Portfolio of Mathan Raj Krishnan — software engineer. Projects, experience, and contact." />
+  <title>Mathan Raj Krishnan — Lead Consultant</title>
+  <meta name="description" content="Mathan Raj Krishnan — Lead Consultant with 14+ years building backend systems, live streaming platforms, and ecommerce at scale." />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <img src="assets/profile.svg" alt="profile" class="avatar">
+        <img src="assets/profile.svg" alt="Mathan Raj Krishnan" class="avatar">
         <div>
           <h1 class="name">Mathan Raj Krishnan</h1>
           <p class="subtitle">Lead Consultant — Dharmapuri, TN</p>
-          <p class="subtitle small">889-246-1021 • <a href="mailto:mathanganesh@live.com">mathanganesh@live.com</a></p>
+          <p class="subtitle">889-246-1021 · <a href="mailto:mathanganesh@live.com">mathanganesh@live.com</a></p>
         </div>
       </div>
       <nav class="nav">
-        <a href="#about">About</a>
+        <a href="#about">What I Do</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
@@ -32,146 +33,353 @@
   </header>
 
   <main>
+
+    <!-- ── Hero ───────────────────────────────────────────────── -->
     <section class="hero">
       <div class="container">
-        <div class="hero-content">
-          <h2>Hi — I'm Mathan.</h2>
-          <p class="lead">I’m a Lead Consultant with 14+ years building reliable backend systems and web platforms. I design scalable architectures, guide small teams, and deliver fast, low‑overhead solutions for ecommerce and streaming.</p>
+        <p class="hero-eyebrow">Lead Consultant · 14+ years · 3 active clients</p>
+        <h2>I connect business needs to engineering decisions — and build systems that keep running.</h2>
+        <p class="hero-sub">Financial platforms, live streaming infrastructure, ecommerce at scale. Currently leading engineering at DNC Chits while consulting for Zinrai and Hitbullseye.</p>
+        <div class="actions">
+          <a href="#contact" class="btn primary">Get in touch</a>
+          <a href="#projects" class="btn">See my work</a>
         </div>
-        <aside class="hero-side">
-          <div class="card quick-stats">
-            <h3>Quick</h3>
-            <ul>
-              <li><strong>Area</strong> Web & Cloud</li>
-              <li><strong>Stack</strong> PHP • Prestashop • Large scale application</li>
-              <li><strong>Databases</strong> MSSQL / MySQL</li>
-            </ul>
-          </div>
-        </aside>
       </div>
     </section>
 
-    <section id="about" class="container about">
-  <h3>About</h3>
-  <p><strong>Professional Summary</strong></p>
-  <p>I help teams turn business problems into simple, reliable technical solutions. Over 14 years I’ve worked on backend systems, ecommerce platforms, and streaming services—focusing on performance, uptime, and maintainability.</p>
-  <p><strong>Key strengths:</strong> PrestaShop, Drupal, ecommerce architecture, DevOps & AWS, streaming platforms, observability and analytics.</p>
+    <!-- ── Metrics Strip ──────────────────────────────────────── -->
+    <div class="metrics-strip">
+      <div class="container metrics-inner">
+        <div class="stat-block">
+          <div class="stat-number">14+</div>
+          <div class="stat-label">Years experience</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">110 TB</div>
+          <div class="stat-label">Video migrated in 45 days</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Countries (Decathlon)</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">&lt;1s</div>
+          <div class="stat-label">Live stream latency</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">10,000+</div>
+          <div class="stat-label">Concurrent exam students</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── What I Do ──────────────────────────────────────────── -->
+    <section id="about" class="container">
+      <h3>What I Do</h3>
+      <div class="specialty-grid">
+        <div class="specialty-card">
+          <div class="specialty-icon">⚙️</div>
+          <h4>Backend &amp; Platform Engineering</h4>
+          <p>PHP, Python, Symfony, Node.js, PrestaShop, Drupal. I design systems that are simple to operate and built to last.</p>
+        </div>
+        <div class="specialty-card">
+          <div class="specialty-icon">📡</div>
+          <h4>Live Streaming &amp; Video</h4>
+          <p>WebRTC, SRS5, Red5Pro, Antmedia, Dolby.io, JWPlayer. From managed services to self-hosted sub-1s latency platforms.</p>
+        </div>
+        <div class="specialty-card">
+          <div class="specialty-icon">🚀</div>
+          <h4>DevOps &amp; Team Leadership</h4>
+          <p>AWS, Docker, CI/CD, infrastructure-as-code. Led 10+ engineers across backend, design, and DevOps through multi-country rollouts.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="experience" class="container experience">
+    <!-- ── Experience ─────────────────────────────────────────── -->
+    <section id="experience" class="container">
       <h3>Experience</h3>
       <div class="timeline">
+
+        <article class="timeline-item">
+          <h4>Lead Consultant &amp; Developer</h4>
+          <p class="meta">DNC Chits — Dharmapuri, TN · March 2026 to Present · Primary role</p>
+          <ul>
+            <li>Leading a 5-person engineering team building a full-stack chit fund management ERP — covering the complete lifecycle from group formation and subscriber onboarding through auctions, settlements, disbursements, and legal tracking.</li>
+            <li>Architected on Laravel 12 / GCP / Kubernetes with MySQL, Redis, Elasticsearch, and Vue.js; deployed across multiple client environments (DNC, SKST, Jeevanmahendra).</li>
+            <li>Built a banking integration layer for UPI, IMPS/RTGS transfers, virtual account management, and WorldLine reconciliation — enabling automated settlement runs with minimal manual intervention.</li>
+            <li>Designed a multi-channel notification system (SMS, WhatsApp, Email, Slack) and integrated an AI assistant (MCP server for Claude) for natural-language querying of platform data.</li>
+            <li>Responsible for CI/CD pipeline (Cloud Build + Bitbucket), Kubernetes deployment, and cross-branch reporting across 20+ specialized financial report types.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <h4>Technical Consultant</h4>
+          <p class="meta">Zinrai — Remote · June 2025 to Present · Concurrent consulting · 3-person team</p>
+          <ul>
+            <li>Consulting on the design and operation of a self-hosted WebRTC streaming platform targeting sub-1s latency for 600 concurrent viewers across 6 simultaneous live streams.</li>
+            <li>Working with a 3-person team on SRS5 origin/edge architecture, Python/FastAPI auth service (stream key validation, DVR pipeline, S3 upload), and server hardening for production launch.</li>
+            <li>Advising on TURN server deployment (Coturn), edge scaling strategy, and infrastructure-as-code practices.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <h4>Technical Consultant</h4>
+          <p class="meta">Hitbullseye.com — Remote · Ongoing · Concurrent consulting · 2-person team</p>
+          <ul>
+            <li>2-person consulting team providing ongoing engineering support for the exam platform and Drupal content platform built during the Cybrain engagement.</li>
+            <li>Responsible for performance, reliability, and feature improvements across the 10,000+ concurrent student exam system and the 100,000+ article multi-domain Drupal blog.</li>
+          </ul>
+        </article>
+
         <article class="timeline-item">
           <h4>Lead Technical Consultant</h4>
-          <p class="meta">International Markets Live Inc. — Remote • 09/2020 to Current</p>
+          <p class="meta">International Markets Live Inc. — Remote · 09/2020 to 03/2025</p>
           <ul>
-            <li>Executed a 100 TB migration from Vimeo to Dolby.io + JWPlayer to achieve ultra-low latency streaming.</li>
-            <li>Led DevOps for live-streaming and user platforms (ECS, Node.js, PHP, MongoDB).</li>
-            <li>Automated CI/CD and adopted infrastructure-as-code for safer, faster releases.</li>
-            <li>Built Matomo-based tracking to own analytics and improve insight-driven decisions.</li>
-            <li>Delivered serverless APIs with a focus on reliability and simple operations.</li>
+            <li>Migrated 110 TB of video from Vimeo to DigitalOcean in 45 days — sole engineer; built a Python real-time monitoring dashboard to track per-video status, detect silent failures, and retry broken uploads with parallel execution.</li>
+            <li>Researched and implemented WebRTC streaming (Red5Pro, Antmedia); progressed to building a self-hosted SRS5 platform with sub-1s glass-to-glass latency for 600 concurrent viewers across 6 simultaneous streams.</li>
+            <li>Led DevOps for live-streaming and user platforms (ECS, Node.js, PHP, MongoDB); automated CI/CD and adopted infrastructure-as-code for safer, faster releases.</li>
+            <li>Built Matomo-based analytics pipeline to replace third-party tracking and bring data ownership in-house.</li>
           </ul>
         </article>
 
         <article class="timeline-item">
           <h4>Tech Lead / Senior IT Consultant</h4>
-          <p class="meta">Decathlon Sports Private Limited — Bangalore, India • 06/2017 to 08/2020</p>
+          <p class="meta">Decathlon Sports Private Limited — Bangalore, India · 06/2017 to 08/2020</p>
           <ul>
-            <li>Managed and mentored a cross-functional team of 10+ engineers and designers, owning delivery for Decathlon across 30+ countries over a 3-year rollout.</li>
-            <li>Led project planning, stakeholder communication and execution to ensure timely, localized launches in multiple markets.</li>
-            <li>Designed ETL pipelines and a Product Information Management (PIM) system to centralize and normalize large-scale product data.</li>
-            <li>Served as a core architect during the migration from a PrestaShop monolith to microservices—defined service boundaries, integration patterns, and operational practices with senior architects.</li>
+            <li>Led a cross-functional team of 10+ engineers and designers through a 3-year rollout covering 30+ countries — owned delivery timelines, stakeholder communication, and localized launches across multiple markets.</li>
+            <li>Served as core architect during the migration from a PrestaShop monolith to microservices; defined service boundaries, integration patterns, and operational practices alongside senior architects.</li>
             <li>Built and operated a coupon microservice (Symfony/PrestaShop) with robust business logic and sub-200ms API responses.</li>
+            <li>Designed ETL pipelines and a Product Information Management (PIM) system to centralize and normalize large-scale product data across all markets.</li>
           </ul>
         </article>
 
         <article class="timeline-item">
           <h4>Technical Lead</h4>
-          <p class="meta">Cybrain Software Solutions Pvt. Ltd — Bangalore • 06/2011 to 06/2017</p>
+          <p class="meta">Cybrain Software Solutions Pvt. Ltd — Bangalore · 06/2011 to 06/2017</p>
           <ul>
-            <li>Managed 50+ web projects including Hitbullseye.com — improved performance using S3 and CloudFront.</li>
-            <li>Delivered CMS, ecommerce, and blog platforms using PrestaShop, WordPress and custom stacks.</li>
-            <li>Mentored junior developers and led AWS deployments to keep systems secure and scalable.</li>
+            <li>Managed 50+ web projects across CMS, ecommerce, and custom platforms; mentored junior developers and led AWS deployments.</li>
+            <li>Built foundational versions of Hitbullseye.com — exam platform and Drupal blog — which continue to operate and scale today.</li>
+            <li>Delivered platforms using PrestaShop, WordPress, and custom PHP stacks; authored an internal jQuery guide to standardize UI patterns across the team.</li>
           </ul>
         </article>
+
       </div>
-      <p class="note">For more details or exact dates, replace or extend these entries directly in <code>index.html</code>.</p>
     </section>
 
-    <section id="projects" class="container projects">
+    <!-- ── Projects ───────────────────────────────────────────── -->
+    <section id="projects" class="container">
       <h3>Selected Projects</h3>
-      <div class="grid">
-        <article class="project">
-          <h4>Hitbullseye.com</h4>
+      <div class="project-grid">
+
+        <!-- Card 0: DNC Chits -->
+        <article class="project project-wide">
+          <div class="project-header">
+            <h4>DNC Chits — Chit Fund Management ERP</h4>
+            <span class="project-metric">3 clients · 5-person team</span>
+          </div>
+          <p class="project-context">DNC Chits · March 2026–Present · Primary engagement</p>
           <ul>
-            <li>Built the student online test panel and scaled it to support 10,000+ students during peak sessions.</li>
-            <li>Implemented complex form workflows to capture and maintain detailed student records and test responses.</li>
-            <li>Migrated the database from MySQL to MSSQL to improve transactional integrity and use advanced MSSQL features.</li>
-            <li>Optimized performance and stability for high-volume testing and form submissions.</li>
+            <li>Leading a 5-person team building a full-stack chit fund ERP managing the complete lifecycle: subscriber onboarding, group formation, auctions, collections, settlements, prize money disbursements, and legal tracking.</li>
+            <li>Architected on Laravel 12 with GCP / Kubernetes (GKE) and CI/CD via Cloud Build — deployed across three production client environments (DNC, SKST, Jeevanmahendra).</li>
+            <li>Built banking integration (Hypto UPI/IMPS/RTGS, virtual accounts, WorldLine reconciliation) enabling automated settlement runs with minimal manual steps.</li>
+            <li>Integrated Elasticsearch for enterprise search, multi-channel notifications (SMS, WhatsApp, Email, Slack), and an AI assistant via MCP server for natural-language data queries.</li>
+            <li>Implemented 20+ specialized financial reports, event-driven job queues (high/critical/low priority), and policy-based authorization across all business workflows.</li>
           </ul>
+          <div class="project-tags">
+            <span class="project-tag">Laravel 12</span>
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">Vue.js</span>
+            <span class="project-tag">GCP / GKE</span>
+            <span class="project-tag">Kubernetes</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">Redis</span>
+            <span class="project-tag">Elasticsearch</span>
+            <span class="project-tag">Banking API</span>
+          </div>
         </article>
 
+        <!-- Card 1: Video Migration -->
         <article class="project">
-          <h4>Zinrai.live and related products</h4>
+          <div class="project-header">
+            <h4>Video Migration Platform</h4>
+            <span class="project-metric">110 TB · 45 days</span>
+          </div>
+          <p class="project-context">International Markets Live · 2023</p>
           <ul>
-            <li>Managed server configuration and deployment for the project, ensuring reliable delivery and performance.</li>
-            <li>Acted as the bridge between business and engineering—tracking deliverables, prioritizing work, and coordinating releases.</li>
-            <li>Led R&amp;D for new product features and prototypes to validate business ideas quickly.</li>
-            <li>Implemented core features including live streaming, organized video sections, and subscription/payment flows.</li>
+            <li>Sole engineer on a 110 TB migration from Vimeo to DigitalOcean — no existing tool or template to work from.</li>
+            <li>Built a Python real-time dashboard to track per-video status, detect failures, and retry broken files automatically.</li>
+            <li>Identified and resolved silent failures: corrupt videos, format incompatibilities, bandwidth throttling mid-transfer.</li>
+            <li>Implemented parallel upload execution to meet the 45-day deadline without data loss.</li>
           </ul>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">DigitalOcean</span>
+            <span class="project-tag">Parallel Processing</span>
+            <span class="project-tag">Real-time Dashboard</span>
+          </div>
         </article>
 
+        <!-- Card 2: WebRTC Platform -->
         <article class="project">
-          <h4>Interest and strengths</h4>
+          <div class="project-header">
+            <h4>WebRTC Live Streaming — zinrai.live</h4>
+            <span class="project-metric">&lt;1s latency · 600 viewers</span>
+          </div>
+          <p class="project-context">International Markets Live · 2024</p>
           <ul>
-            <li>Strong logical problem-solving — I translate business requirements into clear technical designs and practical solutions.</li>
-            <li>Built instant live-stream features and optimized low-latency playback for real-time use cases.</li>
-            <li>Implemented Jitsi for real-time video meetings and integrations when needed.</li>
-            <li>Authored an internal jQuery guide/book to help the team onboard and standardize UI patterns.</li>
+            <li>Designed and built a self-hosted WebRTC streaming platform replacing managed video services — reducing per-stream cost significantly while retaining full control over latency, auth, and recording.</li>
+            <li>SRS5 media server with origin + edge architecture; each edge adds ~300 viewer capacity with zero code changes — horizontal scaling by adding nodes.</li>
+            <li>Python/FastAPI auth service: stream key validation, one-time viewer tokens, automatic state recovery on restart, hard timeout enforcement, ghost stream detection, DVR-to-MP4 via ffmpeg, and S3 upload.</li>
+            <li>Deployed Coturn TURN server for ICE relay; hardened the stack with fd limits, UDP buffer tuning, Docker log rotation, container memory limits, and Nginx rate limiting.</li>
           </ul>
+          <div class="project-tags">
+            <span class="project-tag">WebRTC</span>
+            <span class="project-tag">SRS5</span>
+            <span class="project-tag">Python</span>
+            <span class="project-tag">FastAPI</span>
+            <span class="project-tag">Docker</span>
+            <span class="project-tag">Coturn</span>
+            <span class="project-tag">DigitalOcean</span>
+          </div>
         </article>
+
+        <!-- Card 3: Hitbullseye — full width, dual column -->
+        <article class="project project-wide">
+          <div class="project-header">
+            <h4>Hitbullseye — Exam &amp; Content Platform</h4>
+          </div>
+          <p class="project-context">Cybrain Software Solutions · 2011–2017</p>
+          <div class="project-dual">
+            <div class="project-dual-col">
+              <div class="project-sub-metric">10,000+ concurrent students</div>
+              <p>Online Test Platform</p>
+              <ul>
+                <li>Built the exam platform in core PHP (no framework) — still running stable years later.</li>
+                <li>Predictive auto-scaling on EKS: a scheduled process forecasts expected student count 10 minutes before each exam window and pre-warms the exact number of EC2 instances — no reactive scrambling under load.</li>
+                <li>During live tests, 95% of DB writes are offloaded to Redis (student responses), keeping SQL pressure near-zero; question images and content served from S3/CDN.</li>
+                <li>Integrated proctoring: real-time student monitoring, session recording, and automated violation reporting.</li>
+              </ul>
+            </div>
+            <div class="project-dual-col">
+              <div class="project-sub-metric">100,000+ articles · multi-domain</div>
+              <p>Drupal Blog Platform</p>
+              <ul>
+                <li>Serves 100,000+ articles across multiple domains from one server and one shared database; domains separated via content types, not separate installs.</li>
+                <li>Dynamic sitemap and robots.txt generation keep SEO healthy as article count grows.</li>
+                <li>Designed for editorial ease: content team publishes articles through a clean dashboard with no technical help needed.</li>
+                <li>Consistently good Core Web Vitals despite the volume of content.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Core PHP</span>
+            <span class="project-tag">EKS</span>
+            <span class="project-tag">Redis</span>
+            <span class="project-tag">S3 / CDN</span>
+            <span class="project-tag">Proctoring</span>
+            <span class="project-tag">Drupal</span>
+            <span class="project-tag">Multi-domain</span>
+            <span class="project-tag">SEO</span>
+          </div>
+        </article>
+
+        <!-- Card 4: Decathlon -->
+        <article class="project project-wide">
+          <div class="project-header">
+            <h4>Decathlon Global Ecommerce Platform</h4>
+            <span class="project-metric">30 countries · 3 years</span>
+          </div>
+          <p class="project-context">Decathlon Sports Private Limited · 2017–2020</p>
+          <ul>
+            <li>Core architect on the migration from a PrestaShop monolith to microservices for one of the world's largest sporting goods retailers.</li>
+            <li>Led 10+ engineers across backend, design, and DevOps through a 3-year multi-country rollout — owned delivery timelines, stakeholder communication, and localized launches.</li>
+            <li>Built a coupon microservice (Symfony/PrestaShop) delivering sub-200ms API responses with robust business logic.</li>
+            <li>Designed ETL pipelines and a PIM system to centralize and normalize product data across all 30+ markets.</li>
+          </ul>
+          <div class="project-tags">
+            <span class="project-tag">PrestaShop</span>
+            <span class="project-tag">Symfony</span>
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">Microservices</span>
+            <span class="project-tag">ETL</span>
+            <span class="project-tag">PIM</span>
+            <span class="project-tag">AWS</span>
+          </div>
+        </article>
+
       </div>
     </section>
 
-    <section id="skills" class="container skills">
+    <!-- ── Skills ─────────────────────────────────────────────── -->
+    <section id="skills" class="container">
       <h3>Skills</h3>
-      <ul class="skill-list">
-        <li>PrestaShop, Drupal</li>
-        <li>PHP, Symfony</li>
-        <li>HTML, CSS</li>
-        <li>MySQL, MSSQL, MongoDB</li>
-        <li>AWS (EC2, ECS, S3, Lambda, RDS)</li>
-        <li>CI/CD, Infrastructure as Code</li>
-        <li>Observability: New Relic, Datadog, Zabbix, Matomo</li>
-        <li>ETL, PIM, Streaming: JWPlayer, Dolby.io</li>
-        <li>Kafka, Batch processing, Coupon systems</li>
-      </ul>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <div class="skill-group-label">Languages</div>
+          <div class="skill-pills">
+            <span>PHP</span><span>Python</span><span>Symfony</span><span>Laravel</span><span>Node.js</span><span>Vue.js</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Platforms</div>
+          <div class="skill-pills">
+            <span>PrestaShop</span><span>Drupal</span><span>WordPress</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Databases</div>
+          <div class="skill-pills">
+            <span>MySQL</span><span>MSSQL</span><span>MongoDB</span><span>Redis</span><span>Elasticsearch</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Infrastructure</div>
+          <div class="skill-pills">
+            <span>GCP (GKE, Cloud Build, Cloud Run)</span><span>AWS (EC2, ECS, EKS, S3, Lambda)</span><span>Kubernetes</span><span>Docker</span><span>CI/CD</span><span>DigitalOcean</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Streaming</div>
+          <div class="skill-pills">
+            <span>WebRTC</span><span>SRS5</span><span>Red5Pro</span><span>Antmedia</span><span>Dolby.io</span><span>JWPlayer</span><span>Coturn</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Observability</div>
+          <div class="skill-pills">
+            <span>New Relic</span><span>Datadog</span><span>Matomo</span><span>Zabbix</span>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- ── Education ──────────────────────────────────────────── -->
     <section id="education" class="container education">
       <h3>Education</h3>
       <ul>
-        <li><strong>B.E. in Computer Science & Engineering</strong> — Arunai Engineering College, Thiruvannamalai (07/2006 to 05/2010). GPA: 72.40%</li>
-        <li><strong>HSC</strong> — Don Bosco HS Matriculation School, Dharmapuri (01/2004 to 01/2006). GPA: 84.55%</li>
-        <li><strong>SSLC</strong> — Param Veer Excellence, Dharmapuri (06/2003 to 04/2004). GPA: 69.18%</li>
+        <li><strong>B.E. Computer Science &amp; Engineering</strong> — Arunai Engineering College, Thiruvannamalai · 2006–2010 · GPA 72.40%</li>
+        <li><strong>HSC</strong> — Don Bosco HS Matriculation School, Dharmapuri · 2004–2006 · GPA 84.55%</li>
+        <li><strong>SSLC</strong> — Param Veer Excellence, Dharmapuri · 2003–2004 · GPA 69.18%</li>
       </ul>
     </section>
 
+    <!-- ── Contact ────────────────────────────────────────────── -->
     <section id="contact" class="container contact">
       <h3>Contact</h3>
-      <p>If you'd like to connect, email me at <a href="mailto:mathanganesh@live.com">mathanganesh@live.com</a> or call <strong>889-246-1021</strong>. I'm based in Dharmapuri, TN.</p>
-     
+      <p>I'm open to consulting engagements and senior engineering roles. If a problem you're working on sounds like something I've solved before, let's talk.</p>
+      <a href="mailto:mathanganesh@live.com" class="btn primary contact-btn">Send me an email</a>
+      <p class="contact-sub"><strong>Phone:</strong> 889-246-1021 &nbsp;·&nbsp; <strong>Location:</strong> Dharmapuri, TN</p>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Mathan Raj Krishnan — Built with prompt via copilot.</p>
+      <p>© <span id="year"></span> Mathan Raj Krishnan</p>
     </div>
   </footer>
 
   <script>
-    // small script to set current year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
