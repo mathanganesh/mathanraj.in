@@ -116,13 +116,30 @@
 
     <!-- ── Hero ───────────────────────────────────────────────── -->
     <section class="hero">
-      <div class="container">
-        <p class="hero-eyebrow">Lead Consultant · 14+ years · 3 active clients</p>
-        <h2>I connect business needs to engineering decisions — and build systems that keep running.</h2>
-        <p class="hero-sub">Web development, financial platforms, and self-hosted live streaming infrastructure — a Vimeo alternative built for control and low latency. Currently leading engineering at DNC Chits while consulting for Zinrai and Hitbullseye.</p>
-        <div class="actions">
-          <a href="#contact" class="btn primary">Hire me</a>
-          <a href="#projects" class="btn">See my work</a>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Lead Consultant · 14+ years · 3 active clients</p>
+          <h2>I connect business needs to engineering decisions — and build systems that keep running.</h2>
+          <p class="hero-sub">Web development, financial platforms, and self-hosted live streaming infrastructure — a Vimeo alternative built for control and low latency. Currently leading engineering at DNC Chits while consulting for Zinrai and Hitbullseye.</p>
+          <div class="actions">
+            <a href="#contact" class="btn primary">Hire me</a>
+            <a href="#projects" class="btn">See my work</a>
+          </div>
+        </div>
+        <div class="hero-terminal" id="heroTerminal">
+          <div class="terminal-bar">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-title">portrait.sh</span>
+          </div>
+          <div class="terminal-body">
+            <div class="log-line" id="tl1">$ curl assets/profile-photo.png <span class="terminal-cursor"></span></div>
+            <div class="log-line" id="tl2">→ 200 OK · 74KB</div>
+            <div class="log-line" id="tl3">$ ./render --mode=ascii --width=64</div>
+            <div class="log-line" id="tl4">rendering<span id="renderDots"></span></div>
+            <pre class="ascii-portrait" id="asciiPortrait" aria-label="ASCII art portrait of Mathan Raj Krishnan"></pre>
+          </div>
         </div>
       </div>
     </section>
@@ -462,5 +479,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="ascii-portrait.js"></script>
 </body>
 </html>
